@@ -8,6 +8,7 @@ CSS for Index side
 /*genell CSS*/
 body {
     background-color: black;
+    height: 100%
 }
 /*Headder*/
 header {
@@ -27,16 +28,23 @@ nav ul {
 
 nav ul li {
     border: black 10px dotted;
+    float: left;
+    padding:3px;
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
 /*Section*/
 section {
     background-color: red;
     border: white 5px dashed;
-    height: 80%;
+    height: 500px;
+    margin-top: 40px;
 }
 /*footer*/
 footer {
     background-color: red;
     border: white 5px dashed;
-    height: 10%;
+    height: 100px;
+    margin-top: 10px;
+    
 }
