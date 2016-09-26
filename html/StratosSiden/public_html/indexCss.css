@@ -13,10 +13,12 @@ body {
 header {
     background-color: red;
     border: white 5px dashed;
+    height: 10%;
 }
 
 nav {
-    
+    background-color: red;
+        
 }
 
 nav ul {
@@ -24,15 +26,17 @@ nav ul {
 }
 
 nav ul li {
-    
+    border: black 10px dotted;
 }
 /*Section*/
 section {
     background-color: red;
     border: white 5px dashed;
+    height: 80%;
 }
 /*footer*/
 footer {
     background-color: red;
     border: white 5px dashed;
+    height: 10%;
 }
