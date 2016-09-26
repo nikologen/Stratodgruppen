@@ -1,0 +1,39 @@
+create database if not exists Gallery;
+use Gallery;
+
+create table if not exists `User`
+(
+	User_ID int,
+	Username varchar(30),
+	`password` varchar(50),
+	points int,
+	Email varchar(100),
+	primary key(User_ID)
+);
+
+create table if not exists `Comment`
+(
+	Comment_ID int,
+	Comment_Text varchar(400),
+	Comment_Votes int,
+	User_ID int,
+	Username varchar(30),
+	primary key(Comment_ID),
+	foreign key(User_ID) references `user`(User_ID)
+);
+
+create table if not exists Image
+(
+	Image_ID int,
+	User_ID int,
+	Image_Title varchar(50),
+	Attribute_Name varchar(100),
+	Image_URL varchar(150),
+	Image_Points int,
+	Comment_ID int,
+	Image_Caption varchar(400),
+	primary key(Image_ID),
+	foreign key(Comment_ID) references `Comment`(Comment_ID),
+	foreign key(User_ID) references `User`(User_ID)
+
+)

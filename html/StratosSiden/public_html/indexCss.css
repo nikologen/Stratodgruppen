@@ -5,4 +5,34 @@ CSS for Index side
     Created on : 26.sep.2016, 08:25:01
     Author     : Niklas
 */
+/*genell CSS*/
+body {
+    background-color: black;
+}
+/*Headder*/
+header {
+    background-color: red;
+    border: white 5px dashed;
+}
 
+nav {
+    
+}
+
+nav ul {
+    
+}
+
+nav ul li {
+    
+}
+/*Section*/
+section {
+    background-color: red;
+    border: white 5px dashed;
+}
+/*footer*/
+footer {
+    background-color: red;
+    border: white 5px dashed;
+}
