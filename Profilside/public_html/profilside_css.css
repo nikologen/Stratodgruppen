@@ -1,0 +1,102 @@
+
+body{
+    margin: 0;
+    font-family: courier;
+    background-color: buttonface;
+}
+
+section{
+    margin-left: 3%;
+}
+
+section h1{
+    margin: 15px;
+    text-align: center;
+}
+#logo{
+    margin-left: 20%;
+    margin-top: 5px;
+}
+
+.navigation{
+    background-color: black;
+    overflow: hidden;
+}
+
+.navigation ul{
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+    width: 80%;
+
+}
+
+.imgRight{
+    float: right;
+}
+
+.navigation li{
+    display: inline;
+
+}
+
+.navigation a{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin: 0 15px 0 15px;  
+    border: 2px solid gray;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    border: 2px solid white;
+}
+
+.bilde{
+    width: 180px;
+    height: 180px;
+    background-color: gray;
+    float: left;
+    margin: 0 10px 10px 0;    
+    
+}
+.bilde img{
+    max-width: 180px;
+    height: 180px;
+}
+
+.bilde a:hover{
+    background-color: white;
+}
+
+.grid{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+    
+}
+
+footer{
+    clear: both;
+    background-color: gray;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center; 
+    color: white;
+        
+}
+#boks {
+    padding: 15px;
+    background-color: white;
+    color: black;
+    margin: 0 15px 0 15px;  
+    border: 2px solid gray;
+    text-decoration: none;
+/*    display: inline; */
+}
+
+.boks p:hover {
+    border: 2px solid white;
+}
